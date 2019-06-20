@@ -68,6 +68,7 @@ PKGS=(
     'qbittorrent'
     'transmission-cli'
     'powerline-fonts-git'
+    'rofi'
 )
 
 for PKG in "${PKGS[@]}"; do
