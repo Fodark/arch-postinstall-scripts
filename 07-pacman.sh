@@ -76,6 +76,8 @@ for PKG in "${PKGS[@]}"; do
     sudo pacman -S "$PKG" --noconfirm --needed
 done
 
+chsh -s $(which zsh)
+
 echo
 echo "Done!"
 echo
