@@ -69,6 +69,7 @@ PKGS=(
     'transmission-cli'
     'powerline-fonts-git'
     'rofi'
+    'jsoncpp'
 )
 
 for PKG in "${PKGS[@]}"; do
